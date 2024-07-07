@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    transform: translateY(15%);
+    border: 6px solid #bebebe;
+}
+.container .car-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    height: 80px;
+    padding: 20px 40px;
+}
+.container .car-header h3{
+    font-size: 30px;
+}
+.container .car-header i{
+    font-size: 25px;
+    color: #00d100;
+    cursor: pointer;
+}
+.container .car-body{
+    margin: 40px ;
+}
+.container .car-body .skills-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #bebebe;
+    margin: 8px 0 ;
+    padding:  15px;
+    overflow:hidden ;
+    flex-wrap: wrap;
+}
+.container .car-body .skills-box .skill{
+    display: flex;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+.car-body .skills-box .skill h4{
+    margin-inline-end: 15px;
+}
+.car-body .skills-box .skill i{
+    cursor: pointer;
+}
+.car-body .des{
+    font-size: 19px;
+    margin: 20px 0;
+}
+.car-body .controls {
+    margin-top: 15px;
+}
+.car-body .controls .btn{
+    border: none;
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-inline-end: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.car-body .controls .save{
+    background-color: #00d100;
+    color: #fff;
+}
+.car-body .controls .save:hover{
+    background-color: #177c17;
+}
+.car-body .controls .cancel:hover{
+    background-color: #cfcfcf;
+}
